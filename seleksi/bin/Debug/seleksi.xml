@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+seleksi
+</name>
+</assembly>
+<members>
+<member name="T:seleksi.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:seleksi.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:seleksi.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.barangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.header_penjualanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.karyawanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.kategoriDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.penjualanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.lihatBarangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.LaporanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.barangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.header_penjualanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.karyawanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.kategoriRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.penjualanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.lihatBarangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.LaporanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.barangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.header_penjualanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.karyawanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.kategoriRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.penjualanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.lihatBarangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSet.LaporanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.barangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.header_penjualanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.karyawanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.kategoriTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.penjualanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.lihatBarangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.LaporanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:seleksi.seleksiDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(seleksi.seleksiDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:seleksi.seleksiDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(seleksi.seleksiDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:seleksi.seleksiDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(seleksi.seleksiDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:seleksi.seleksiDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:seleksi.seleksiDataSetTableAdapters.TableAdapterManager.UpdateAll(seleksi.seleksiDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:seleksi.seleksiDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
